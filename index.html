@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Davi Andrade e Mateus Dias">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoJo's Bizarre Adventure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container-70 {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card-4 {
+            flex: 0 0 22%;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .container-50 {
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .layout-3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .empilhadas {
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>JoJo's Bizarre Adventure</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#personagens">Personagens</a>
+            <a href="#partes">Partes</a>
+            <a href="#destaques">Destaques</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Página Home</h2>
+            <div style="display: flex;">
+                <img src="https://via.placeholder.com/300x180" alt="JoJo 1">
+                <p>O Início da História: A aventura da família Joestar atravessando gerações contra forças sobrenaturais e vampiros.</p>
+            </div>
+            <div style="display: flex;">
+                <img src="https://via.placeholder.com/300x180" alt="JoJo 2">
+                <p>O Poder dos Stands: Manifestações da energia vital que transformam as lutas em grandes estratégias.</p>
+            </div>
+        </section>
+
+        <section id="personagens">
+            <h2>Personagens (70%)</h2>
+            <div class="container-70">
+                <div class="card-4"><img src="https://via.placeholder.com/150"><span>Jonathan</span></div>
+                <div class="card-4"><img src="https://via.placeholder.com/150"><span>Joseph</span></div>
+                <div class="card-4"><img src="https://via.placeholder.com/150"><span>Jotaro</span></div>
+                <div class="card-4"><img src="https://via.placeholder.com/150"><span>Josuke</span></div>
+                <div class="card-4"><img src="https://via.placeholder.com/150"><span>Giorno</span></div>
+                <div class="card-4"><img src="https://via.placeholder.com/150"><span>Jolyne</span></div>
+                <div class="card-4"><img src="https://via.placeholder.com/150"><span>Johnny</span></div>
+                <div class="card-4"><img src="https://via.placeholder.com/150"><span>Gappy</span></div>
+            </div>
+        </section>
+
+        <section id="partes" class="container-50">
+            <h2>Partes da Série (50%)</h2>
+            <p><strong>Parte 1:</strong> Phantom Blood</p>
+            <p><strong>Parte 2:</strong> Battle Tendency</p>
+            <p><strong>Parte 3:</strong> Stardust Crusaders</p>
+            <p><strong>Parte 4:</strong> Diamond is Unbreakable</p>
+        </section>
+
+        <section id="destaques">
+            <h2>Destaques Visuais</h2>
+            <div class="layout-3">
+                <div class="empilhadas">
+                    <img src="https://via.placeholder.com/250x150" alt="Imagem 1">
+                    <img src="https://via.placeholder.com/250x150" alt="Imagem 2">
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/250x310" alt="Imagem 3">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Davi Andrade e Mateus Dias</p>
+    </footer>
+
+</body>
+</html>
